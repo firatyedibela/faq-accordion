@@ -2,6 +2,7 @@
 
 @theme {
   --font-main: 'WorkSans', 'sans-serif';
+  --color-dark-purple: #301534;
 }
 
 @font-face {
