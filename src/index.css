@@ -16,6 +16,7 @@ body {
   background-image: url('./assets/background-pattern-mobile.svg');
   background-repeat: no-repeat;
   background-color: #f8eeff;
+  background-size: 100% auto;
 }
 
 @media (min-width: 376px) {
