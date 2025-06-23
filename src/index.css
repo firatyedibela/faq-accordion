@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+
+body {
+  background-image: url('./assets/background-pattern-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f8eeff;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url('./assets/background-pattern-desktop.svg');
+  }
+}
