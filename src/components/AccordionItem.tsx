@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import minus from '../assets/icon-minus.svg';
 import plus from '../assets/icon-plus.svg';
+import { motion, AnimatePresence } from 'motion/react';
 
 type AccordionItemProps = {
   title: string;
@@ -28,11 +29,18 @@ export function AccordionItem({ title, answer }: AccordionItemProps) {
           alt={`${isOpen ? 'Minus' : 'Plus'} icon`}
         />
       </button>
-      {isOpen && (
-        <div className="answer text-sm text-light-purple leading-[150%]">
-          {answer}
-        </div>
-      )}
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0, scale: 0.6 }}
+            animate={{ height: 'auto', opacity: 1, scale: 1 }}
+            exit={{ height: 0, opacity: 0, scale: 0.6 }}
+            className="answer text-sm text-light-purple leading-[150%]"
+          >
+            {answer}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
