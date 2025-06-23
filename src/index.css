@@ -1,5 +1,16 @@
 @import 'tailwindcss';
 
+@theme {
+  --font-main: 'WorkSans', 'sans-serif';
+}
+
+@font-face {
+  font-family: WorkSans;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('fonts/WorkSans-VariableFont_wght.ttf');
+}
+
 body {
   background-image: url('./assets/background-pattern-mobile.svg');
   background-repeat: no-repeat;
