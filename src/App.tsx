@@ -5,8 +5,8 @@ import faqs from './data/faqs';
 function App() {
   return (
     <main className="p-6 min-h-screen flex items-center justify-center">
-      <div className="accordion flex flex-col gap-6 w-[327px] bg-white rounded-lg p-6 md:p-[40px]">
-        <div className="accordion-header flex gap-6 items-center font-main leading-[38px] md:leading-[65px]">
+      <div className="accordion flex flex-col gap-6 w-[327px] bg-white rounded-lg p-6 md:p-[40px] font-main">
+        <div className="accordion-header flex gap-6 items-center leading-[38px] md:leading-[65px]">
           <img
             className="w-[21px] h-[21px] md:w-[40px] md:h-[40px]"
             src={star}
