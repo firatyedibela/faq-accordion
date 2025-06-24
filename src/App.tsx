@@ -5,7 +5,7 @@ import faqs from './data/faqs';
 function App() {
   return (
     <main className="p-6 min-h-screen flex items-center justify-center">
-      <div className="accordion flex flex-col gap-6 w-[327px] bg-white rounded-lg p-6 md:p-[40px] font-main">
+      <div className="accordion flex flex-col gap-6 md:gap-8 w-[327px] md:w-[600px] bg-white rounded-lg p-6 md:p-[40px] font-main">
         <div className="accordion-header flex gap-6 items-center leading-[38px] md:leading-[65px]">
           <img
             className="w-[21px] h-[21px] md:w-[40px] md:h-[40px]"
@@ -16,7 +16,7 @@ function App() {
             FAQs
           </h1>
         </div>
-        <div className="accordion-body flex flex-col gap-[20px]">
+        <div className="accordion-body flex flex-col gap-[20px] md:gap-6">
           {faqs.map((faq, index) => (
             <>
               <AccordionItem
