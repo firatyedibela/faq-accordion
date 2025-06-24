@@ -25,9 +25,9 @@ export function AccordionItem({ title, answer, id }: AccordionItemProps) {
         aria-expanded={isOpen}
         aria-controls={`faq${id}`}
       >
-        <p className="text-start text-dark-purple max-w-[225px] font-semibold hover:text-pink transition duration-150 leading-[19px] md:max-w-none md:text-lg">
+        <span className="text-start text-dark-purple max-w-[225px] font-semibold hover:text-pink transition duration-150 leading-[19px] md:max-w-none md:text-lg">
           {title}
-        </p>
+        </span>
         <img
           src={isOpen ? minus : plus}
           alt={`${isOpen ? 'Minus' : 'Plus'} icon`}
