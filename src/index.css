@@ -22,7 +22,7 @@ body {
   background-size: 100% auto;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 23.5rem) {
   body {
     background-image: url('./assets/background-pattern-desktop.svg');
   }
