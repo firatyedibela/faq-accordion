@@ -25,7 +25,7 @@ function App() {
                 answer={faq.answer}
               />
               {index + 1 < faqs.length && (
-                <div className="w-100 h-[1px] bg-light-pink"></div>
+                <div className="w-full h-[1px] bg-light-pink"></div>
               )}
             </>
           ))}
