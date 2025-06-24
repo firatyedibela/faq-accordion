@@ -21,7 +21,7 @@ export function AccordionItem({ title, answer }: AccordionItemProps) {
         onClick={handleTitleClick}
         className="w-full text-start flex items-center justify-between cursor-pointer"
       >
-        <p className="text-start text-dark-purple  max-w-[225px] leading-[19px] font-semibold">
+        <p className="text-start text-dark-purple max-w-[225px] font-semibold hover:text-pink leading-[19px] md:max-w-none md:text-lg">
           {title}
         </p>
         <img
@@ -35,8 +35,7 @@ export function AccordionItem({ title, answer }: AccordionItemProps) {
             initial={{ height: 0, opacity: 0, scale: 0.6, marginTop: 0 }}
             animate={{ height: 'auto', opacity: 1, scale: 1, marginTop: 24 }}
             exit={{ height: 0, opacity: 0, scale: 0.6, marginTop: 0 }}
-            className="answer text-sm text-light-purple leading-[150%] cursor-pointer"
-            onClick={handleTitleClick}
+            className="answer text-sm text-light-purple leading-[150%] md:text-base"
           >
             {answer}
           </motion.div>
