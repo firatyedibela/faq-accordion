@@ -18,7 +18,7 @@
 body {
   background-image: url('./assets/background-pattern-mobile.svg');
   background-repeat: no-repeat;
-  background-color: #f8eeff;
+  background-color: var(--color-light-pink);
   background-size: 100% auto;
 }
 
