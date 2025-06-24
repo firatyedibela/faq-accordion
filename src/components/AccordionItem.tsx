@@ -19,6 +19,7 @@ export function AccordionItem({ title, answer, id }: AccordionItemProps) {
   return (
     <div className="accordion-item flex flex-col">
       <button
+        type="button"
         onClick={handleTitleClick}
         className="w-full text-start flex items-center justify-between cursor-pointer"
         aria-expanded={isOpen}
