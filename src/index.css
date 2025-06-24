@@ -12,7 +12,7 @@
   font-family: WorkSans;
   font-style: normal;
   font-weight: 100 900;
-  src: url('fonts/WorkSans-VariableFont_wght.ttf');
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf');
 }
 
 body {
