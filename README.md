@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/firatyedibela/faq-accordion)
-- Live Site URL: [Add live site URL here](https://faq-accordion-psi-three.vercel.app)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-using-react-and-tailwind-css-TTiWJPDG6J)
+- Live Site URL: [Live Site](https://faq-accordion-psi-three.vercel.app)
 
 ## My process
 
