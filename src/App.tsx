@@ -5,7 +5,7 @@ import faqs from './data/faqs';
 function App() {
   return (
     <main className="p-6 min-h-screen flex items-center justify-center">
-      <div className="accordion flex flex-col gap-6 md:gap-8 w-[327px] md:w-[600px] bg-white rounded-lg p-6 md:p-[40px] font-main">
+      <div className="accordion w-[327px] p-6 flex flex-col gap-6 bg-white rounded-lg font-main shadow-lg md:w-[600px] md:p-[40px] md:gap-8 md:rounded-xl">
         <div className="accordion-header flex gap-6 items-center leading-[38px] md:leading-[65px]">
           <img
             className="w-[21px] h-[21px] md:w-[40px] md:h-[40px]"
@@ -21,6 +21,7 @@ function App() {
             <>
               <AccordionItem
                 key="title"
+                id={faq.id}
                 title={faq.title}
                 answer={faq.answer}
               />
